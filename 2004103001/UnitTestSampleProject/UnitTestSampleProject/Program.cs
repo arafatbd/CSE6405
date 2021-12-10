@@ -6,7 +6,10 @@ namespace UnitTestSampleProject
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Factorial factorial = new Factorial();
+            Console.WriteLine("Enter a number:");
+            int x = int.Parse(Console.ReadLine());
+            Console.WriteLine(x + "! = " + factorial.GetFactorial(x));
         }
     }
 }
