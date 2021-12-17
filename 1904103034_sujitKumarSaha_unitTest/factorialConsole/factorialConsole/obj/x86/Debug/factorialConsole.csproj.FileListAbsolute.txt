@@ -1,0 +1,4 @@
+F:\study\3rd sem\Software Testing (CSE 6405)\Assignment\assignment-1\factorialConsole\factorialConsole\bin\Debug\factorialConsole.exe
+F:\study\3rd sem\Software Testing (CSE 6405)\Assignment\assignment-1\factorialConsole\factorialConsole\bin\Debug\factorialConsole.pdb
+F:\study\3rd sem\Software Testing (CSE 6405)\Assignment\assignment-1\factorialConsole\factorialConsole\obj\x86\Debug\factorialConsole.exe
+F:\study\3rd sem\Software Testing (CSE 6405)\Assignment\assignment-1\factorialConsole\factorialConsole\obj\x86\Debug\factorialConsole.pdb
