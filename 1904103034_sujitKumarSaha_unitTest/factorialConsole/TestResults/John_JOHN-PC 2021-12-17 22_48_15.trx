@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="2e497a36-a390-4a8e-803c-5ba714e3b83a" name="John@JOHN-PC 2021-12-17 22:48:15" runUser="John-PC\John" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="e6f11351-c71c-4752-bdd7-4332904f524a">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="John_JOHN-PC 2021-12-17 22_48_15">
+      <DeploymentItem filename="F:\study\3rd sem\Software Testing (CSE 6405)\Assignment\assignment-1\factorialConsole\factorialConsole\bin\Debug\factorialConsole.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2021-12-17T22:48:15.6823718+06:00" queuing="2021-12-17T22:48:15.6923718+06:00" start="2021-12-17T22:48:15.7223718+06:00" finish="2021-12-17T22:48:16.0623723+06:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="4" executed="4" passed="3" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="JOHN-PC" outcome="Warning" timestamp="2021-12-17T22:48:15.6923718+06:00">
+        <Text>Deployment is currently disabled. The deployment item 'factorialConsole.exe' on test 'UnitTest.ProgramTest.factTest' was not deployed.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="factTest" storage="f:\study\3rd sem\software testing (cse 6405)\assignment\assignment-1\factorialconsole\unittest\bin\debug\unittest.dll" id="432c641d-2c8e-d70c-c500-a4a163c51240">
+      <DeploymentItems>
+        <DeploymentItem filename="factorialConsole.exe" />
+      </DeploymentItems>
+      <Execution id="70babcf6-8484-4dee-b286-03a495613a30" />
+      <TestMethod codeBase="F:/study/3rd sem/Software Testing (CSE 6405)/Assignment/assignment-1/factorialConsole/UnitTest/bin/Debug/UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTest.ProgramTest, UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="factTest" />
+    </UnitTest>
+    <UnitTest name="factTestforNegative" storage="f:\study\3rd sem\software testing (cse 6405)\assignment\assignment-1\factorialconsole\unittest\bin\debug\unittest.dll" id="9f0d7140-4a23-1e56-7d6b-bf291a2c1c20">
+      <DeploymentItems>
+        <DeploymentItem filename="factorialConsole.exe" />
+      </DeploymentItems>
+      <Execution id="cab89758-5c1d-40a4-aa06-ab750e6734fc" />
+      <TestMethod codeBase="F:/study/3rd sem/Software Testing (CSE 6405)/Assignment/assignment-1/factorialConsole/UnitTest/bin/Debug/UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTest.ProgramTest, UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="factTestforNegative" />
+    </UnitTest>
+    <UnitTest name="factTestforFail" storage="f:\study\3rd sem\software testing (cse 6405)\assignment\assignment-1\factorialconsole\unittest\bin\debug\unittest.dll" id="91571f0c-190f-de65-ba2d-88db156064dd">
+      <DeploymentItems>
+        <DeploymentItem filename="factorialConsole.exe" />
+      </DeploymentItems>
+      <Execution id="d4296df1-2b31-4014-a4e8-3dd2c6d9c89a" />
+      <TestMethod codeBase="F:/study/3rd sem/Software Testing (CSE 6405)/Assignment/assignment-1/factorialConsole/UnitTest/bin/Debug/UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTest.ProgramTest, UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="factTestforFail" />
+    </UnitTest>
+    <UnitTest name="factTestforZero" storage="f:\study\3rd sem\software testing (cse 6405)\assignment\assignment-1\factorialconsole\unittest\bin\debug\unittest.dll" id="ac28fe48-50b9-b5e6-9bfe-f09842d3e27c">
+      <DeploymentItems>
+        <DeploymentItem filename="factorialConsole.exe" />
+      </DeploymentItems>
+      <Execution id="6d662c7c-e6d0-4034-b934-8d32d6e6cdad" />
+      <TestMethod codeBase="F:/study/3rd sem/Software Testing (CSE 6405)/Assignment/assignment-1/factorialConsole/UnitTest/bin/Debug/UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTest.ProgramTest, UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="factTestforZero" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="9f0d7140-4a23-1e56-7d6b-bf291a2c1c20" executionId="cab89758-5c1d-40a4-aa06-ab750e6734fc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="91571f0c-190f-de65-ba2d-88db156064dd" executionId="d4296df1-2b31-4014-a4e8-3dd2c6d9c89a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ac28fe48-50b9-b5e6-9bfe-f09842d3e27c" executionId="6d662c7c-e6d0-4034-b934-8d32d6e6cdad" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="432c641d-2c8e-d70c-c500-a4a163c51240" executionId="70babcf6-8484-4dee-b286-03a495613a30" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="cab89758-5c1d-40a4-aa06-ab750e6734fc" testId="9f0d7140-4a23-1e56-7d6b-bf291a2c1c20" testName="factTestforNegative" computerName="JOHN-PC" duration="00:00:00.0192392" startTime="2021-12-17T22:48:15.7323718+06:00" endTime="2021-12-17T22:48:15.9523721+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cab89758-5c1d-40a4-aa06-ab750e6734fc">
+    </UnitTestResult>
+    <UnitTestResult executionId="d4296df1-2b31-4014-a4e8-3dd2c6d9c89a" testId="91571f0c-190f-de65-ba2d-88db156064dd" testName="factTestforFail" computerName="JOHN-PC" duration="00:00:00.0394418" startTime="2021-12-17T22:48:15.9523721+06:00" endTime="2021-12-17T22:48:16.0023722+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d4296df1-2b31-4014-a4e8-3dd2c6d9c89a">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;100&gt;. Actual:&lt;120&gt;. </Message>
+          <StackTrace>   at UnitTest.ProgramTest.factTestforFail() in F:\study\3rd sem\Software Testing (CSE 6405)\Assignment\assignment-1\factorialConsole\UnitTest\ProgramTest.cs:line 115
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="6d662c7c-e6d0-4034-b934-8d32d6e6cdad" testId="ac28fe48-50b9-b5e6-9bfe-f09842d3e27c" testName="factTestforZero" computerName="JOHN-PC" duration="00:00:00.0002083" startTime="2021-12-17T22:48:16.0023722+06:00" endTime="2021-12-17T22:48:16.0123722+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6d662c7c-e6d0-4034-b934-8d32d6e6cdad">
+    </UnitTestResult>
+    <UnitTestResult executionId="70babcf6-8484-4dee-b286-03a495613a30" testId="432c641d-2c8e-d70c-c500-a4a163c51240" testName="factTest" computerName="JOHN-PC" duration="00:00:00.0001936" startTime="2021-12-17T22:48:16.0123722+06:00" endTime="2021-12-17T22:48:16.0123722+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="70babcf6-8484-4dee-b286-03a495613a30">
+    </UnitTestResult>
+  </Results>
+</TestRun>
