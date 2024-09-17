@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="445af989-3ddb-4b6c-8a0a-e2a487710d00" name="John@JOHN-PC 2021-12-17 22:41:18" runUser="John-PC\John" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="e6f11351-c71c-4752-bdd7-4332904f524a">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="John_JOHN-PC 2021-12-17 22_41_18">
+      <DeploymentItem filename="F:\study\3rd sem\Software Testing (CSE 6405)\Assignment\assignment-1\factorialConsole\factorialConsole\bin\Debug\factorialConsole.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2021-12-17T22:41:18.2190551+06:00" queuing="2021-12-17T22:41:18.2450566+06:00" start="2021-12-17T22:41:18.2600574+06:00" finish="2021-12-17T22:41:18.5540743+06:00" />
+  <ResultSummary outcome="Warning">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="JOHN-PC" outcome="Warning" timestamp="2021-12-17T22:41:18.2440565+06:00">
+        <Text>Deployment is currently disabled. The deployment item 'factorialConsole.exe' on test 'UnitTest.ProgramTest.factTest' was not deployed.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="factTest" storage="f:\study\3rd sem\software testing (cse 6405)\assignment\assignment-1\factorialconsole\unittest\bin\debug\unittest.dll" id="432c641d-2c8e-d70c-c500-a4a163c51240">
+      <DeploymentItems>
+        <DeploymentItem filename="factorialConsole.exe" />
+      </DeploymentItems>
+      <Execution id="e91d0b01-b101-40ca-b74a-0fe40250891a" />
+      <TestMethod codeBase="F:/study/3rd sem/Software Testing (CSE 6405)/Assignment/assignment-1/factorialConsole/UnitTest/bin/Debug/UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTest.ProgramTest, UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="factTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="432c641d-2c8e-d70c-c500-a4a163c51240" executionId="e91d0b01-b101-40ca-b74a-0fe40250891a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="e91d0b01-b101-40ca-b74a-0fe40250891a" testId="432c641d-2c8e-d70c-c500-a4a163c51240" testName="factTest" computerName="JOHN-PC" duration="00:00:00.0225461" startTime="2021-12-17T22:41:18.2720581+06:00" endTime="2021-12-17T22:41:18.5400735+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e91d0b01-b101-40ca-b74a-0fe40250891a">
+    </UnitTestResult>
+  </Results>
+</TestRun>
